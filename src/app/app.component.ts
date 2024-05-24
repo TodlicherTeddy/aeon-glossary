@@ -1,5 +1,5 @@
 import {Component, inject} from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {RouterOutlet} from '@angular/router';
 import {RulesCardComponent} from "./rules-card/rules-card.component";
 import {NgForOf} from "@angular/common";
 import {SearchPipe} from "./search.pipe";
@@ -40,11 +40,31 @@ export class AppComponent {
       "title": "Auto-break X",
       "text": "During the first ability window, place X Break tokens in the Kratos Pool (see Break X keyword).",
       "tags": ["keyword"]
-    },]
+    },
+    {
+      "id": 5,
+      "title": "Auto-break X",
+      "text": "During the first ability window, place X Break tokens in the Kratos Pool (see Break X keyword).",
+      "tags": ["keyword"]
+    },
+    {
+      "id": 6,
+      "title": "Auto-break X",
+      "text": "During the first ability window, place X Break tokens in the Kratos Pool (see Break X keyword).",
+      "tags": ["keyword"]
+    },
+    {
+      "id": 7,
+      "title": "Auto-break X",
+      "text": "During the first ability window, place X Break tokens in the Kratos Pool (see Break X keyword).",
+      "tags": ["keyword"]
+    },
+  ]
 
   searchService: SearchService = inject(SearchService);
 
   constructor() {
     this.searchService.addSearchObjects(this.rules);
   }
+
 }
