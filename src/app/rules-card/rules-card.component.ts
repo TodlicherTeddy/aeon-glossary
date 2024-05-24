@@ -6,10 +6,8 @@ import {Rule} from "./Rule";
   standalone: true,
   imports: [],
   template: `
-    <div class="card">
-      <h1>{{ rule?.title }}</h1>
-      <div>{{ rule?.text }}</div>
-    </div>
+    <h4>{{ rule?.title }}</h4>
+    <div>{{ rule?.text }}</div>
   `,
   styleUrl: './rules-card.component.css'
 })
