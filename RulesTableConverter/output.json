@@ -1,0 +1,344 @@
+[
+    {
+        "ID": "I.1.1",
+        "NAME": "Game Element",
+        "RULE": "A game element is any physical component of the game, a story passage, or a note the game instructed you to take.\n",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.1.1",
+        "NAME": "Generic Tokens",
+        "RULE": "Use Generic tokens to keep track of anything that you want to; these were added for your convenience. Whenever there’s an effect that doesn’t use any of the specific tokens, you will be instructed to use a generic token to track it.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.2",
+        "NAME": "Random",
+        "RULE": "When you are asked to choose a random element, do the following based on the element:",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.2.1",
+        "NAME": "Random Card",
+        "RULE": "Draw the top card from the indicated (facedown) deck.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.2.2",
+        "NAME": "Random Direction",
+        "RULE": "Draw the top card from the Minor Trauma deck. The arrow in the bottom left corner designates the randomly chosen direction. If it shows a rotating arrow, you may instead choose a direction. Place the drawn card at the bottom of the deck.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.2.3",
+        "NAME": "Random Element",
+        "RULE": "Roll one d10 for each element, lowest roll is selected.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.3",
+        "NAME": "Ignore",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.4",
+        "NAME": "Gain",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.5",
+        "NAME": "Gain Gear",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.6",
+        "NAME": "Gain Gear in Battle",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.7",
+        "NAME": "Gain Tech",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8",
+        "NAME": "Gain Clues",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.1",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.1.a",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.2",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.3",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.4",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.5",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.5.a",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.6",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.7",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.8",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "I.1.8.9",
+        "NAME": "Gain Mnemos Cards",
+        "RULE": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "KEYWORDS": "Game Aspects, Key Concepts, Important Terms"
+    },
+    {
+        "ID": "VII.1",
+        "NAME": "Gameplay Flow",
+        "RULE": "This game is played over many sessions. During a game session, you will likely play a few Campaign Rounds. Each Campaign Round is made up of a series of Steps. Each of these Steps incorporates one or more of the game’s Phases: Voyage Phase, Adventure Phase, or Battle Phase. ",
+        "KEYWORDS": "Game Phases, General Gameplay, Gameplay Flow"
+    },
+    {
+        "ID": "VII.1.1",
+        "NAME": "Gameplay Round",
+        "RULE": "A Campaign Round is one in-game day on the Timeline.",
+        "KEYWORDS": "Game Phases, General Gameplay, Gameplay Flow"
+    },
+    {
+        "ID": "VII.1.2",
+        "NAME": "Steps",
+        "RULE": "Steps make up the structure of a Campaign Round and are always resolved in a fixed order.",
+        "KEYWORDS": "Game Phases, General Gameplay, Gameplay Flow"
+    },
+    {
+        "ID": "VII.1.3",
+        "NAME": "Phases",
+        "RULE": "Phases are gameplay segments that differentiate which rules are in effect at any moment.",
+        "KEYWORDS": "Game Phases, General Gameplay, Gameplay Flow"
+    },
+    {
+        "ID": "VII.1.3.1",
+        "NAME": "Phase Types",
+        "RULE": "There are three different Phases in ATO: Voyage, Battle, and Adventure.",
+        "KEYWORDS": "Game Phases, General Gameplay, Gameplay Flow"
+    },
+    {
+        "ID": "VII.1.3.2",
+        "NAME": "Phase Rule of Thumb",
+        "RULE": "You are always in a game Phase. If you’re not in the Adventure Phase or the Battle Phase, you’re in the Voyage Phase.",
+        "KEYWORDS": "Game Phases, General Gameplay, Gameplay Flow"
+    },
+    {
+        "ID": "VII.1.3.3",
+        "NAME": "Phase Entering",
+        "RULE": "When you are in a Battle, you are in the Battle Phase. When you are reading passages in the Storybook, you’re in the Adventure Phase. Always return to the Voyage Phase after finishing a Battle or Story section.",
+        "KEYWORDS": "Game Phases, General Gameplay, Gameplay Flow"
+    },
+    {
+        "ID": "VII.1.3.4",
+        "NAME": "Phase Campaign Round",
+        "RULE": "Any Campaign Round Step can consist of any combination of Phases.",
+        "KEYWORDS": "Game Phases, General Gameplay, Gameplay Flow"
+    },
+    {
+        "ID": "VII.2",
+        "NAME": "Campaign Round Sequence",
+        "RULE": "Each Campaign Round, you will go through the Campaign Round Steps (VIII.1-10), resolving them in order.",
+        "KEYWORDS": "Game Phases, General Gameplay, Campaign Round Sequence"
+    },
+    {
+        "ID": "VII.2.1",
+        "NAME": "Events",
+        "RULE": "All Campaign Round Steps always happen, but there are not always events during a Step in a given Campaign Round. Steps VIII.1-3 always have events.",
+        "KEYWORDS": "Game Phases, General Gameplay, Campaign Round Sequence"
+    },
+    {
+        "ID": "VIII.1.1",
+        "NAME": "Always Move",
+        "RULE": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
+        "KEYWORDS": "Game Phases, Campaign Round, Movement Step"
+    },
+    {
+        "ID": "VIII.1.2",
+        "NAME": "Always Move",
+        "RULE": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
+        "KEYWORDS": "Game Phases, Campaign Round, Movement Step"
+    },
+    {
+        "ID": "VIII.1.2.1",
+        "NAME": "Always Move",
+        "RULE": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
+        "KEYWORDS": "Game Phases, Campaign Round, Movement Step"
+    },
+    {
+        "ID": "VIII.1.2.2",
+        "NAME": "Always Move",
+        "RULE": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
+        "KEYWORDS": "Game Phases, Campaign Round, Movement Step"
+    },
+    {
+        "ID": "VIII.1.2.2.a",
+        "NAME": "Always Move",
+        "RULE": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
+        "KEYWORDS": "Game Phases, Campaign Round, Movement Step, Cycle 1"
+    },
+    {
+        "ID": "VIII.1.2.2.b",
+        "NAME": "Always Move",
+        "RULE": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
+        "KEYWORDS": "Game Phases, Campaign Round, Movement Step, Cycle 2"
+    },
+    {
+        "ID": "VIII.1.2.2.c",
+        "NAME": "Always Move",
+        "RULE": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
+        "KEYWORDS": "Game Phases, Campaign Round, Movement Step, Cycle 2"
+    },
+    {
+        "ID": "VIII.1.2.2.d",
+        "NAME": "Always Move",
+        "RULE": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
+        "KEYWORDS": "Game Phases, Campaign Round, Movement Step, Cycle 2"
+    },
+    {
+        "ID": "VIII.1.2.2.e",
+        "NAME": "Always Move",
+        "RULE": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
+        "KEYWORDS": "Game Phases, Campaign Round, Movement Step, Cycle 2"
+    },
+    {
+        "ID": "A.1",
+        "NAME": "Ambrosia Limit X/+X",
+        "RULE": "Your Ambrosia Limit becomes X or is increased by X, respectively. If you have more than one instance of the former, then the one with the greatest X is used (before applying modifiers).",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.2",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.3",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.4",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.5",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.6",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.7",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.8",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.9",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.10",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.11",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.12",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.13",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.14",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    },
+    {
+        "ID": "A.15",
+        "NAME": "Armor-Piercing",
+        "RULE": "During the Power Roll, ignore Hardened.",
+        "KEYWORDS": "Appendix, Keyword List"
+    }
+]
