@@ -7,9 +7,9 @@ import {Rule} from "./rules-card/Rule";
 })
 export class SearchService {
   private miniSearch: MiniSearch<Rule> = new MiniSearch<Rule>({
-    fields: ['title', 'text', 'tags'],
+    fields: ['id', 'name', 'rule', 'keywords'],
     searchOptions: {
-      boost: { ['title']: 2 },
+      boost: { ['id']: 3, ['name']: 2, ['keywords']: 2 },
       fuzzy: 0.1,
       prefix: true,
     },
