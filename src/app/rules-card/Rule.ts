@@ -1,6 +1,6 @@
 export interface Rule {
-  id: number,
-  title: string,
-  text: string,
-  tags: string[]
+  id: string,
+  name: string,
+  rule: string,
+  keywords: string[]
 }

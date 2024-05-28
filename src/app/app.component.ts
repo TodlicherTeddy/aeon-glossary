@@ -5,25 +5,29 @@ import {NgForOf} from "@angular/common";
 import {SearchPipe} from "./search.pipe";
 import {FormsModule} from "@angular/forms";
 import {SearchService} from "./search.service";
-import * as rulesJSON from '../assets/rules.json';
 import {Rule} from "./rules-card/Rule";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RulesCardComponent, NgForOf, SearchPipe, FormsModule],
+  imports: [RouterOutlet, RulesCardComponent, NgForOf, SearchPipe, FormsModule, HttpClientModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'Aeon Glossary';
   searchTerm: string = '';
-  rules = rulesJSON as Rule;
+  rules: Rule[] = [];
 
+  http: HttpClient = inject(HttpClient);
   searchService: SearchService = inject(SearchService);
 
   constructor() {
-    this.searchService.addSearchObjects(this.rules);
+    this.http.get<Rule[]>('/assets/rules.json').subscribe(res => {
+      this.rules = res;
+      this.searchService.addSearchObjects(res);
+    });
   }
 
 }
