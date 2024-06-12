@@ -2,7 +2,7 @@
     {
         "id": "I.1.1",
         "name": "Game Element",
-        "rule": "A game element is any physical component of the game, a story passage, or a note the game instructed you to take.",
+        "rule": "A game element is any physical component of the game, a story passage, or a note the game instructed you to take.\n",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -71,8 +71,8 @@
     },
     {
         "id": "I.1.4",
-        "name": "Gain",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Remove",
+        "rule": "“Removed” elements are set aside and not used until instructed, or until the end of Battle if not.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -81,8 +81,8 @@
     },
     {
         "id": "I.1.5",
-        "name": "Gain Gear",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Disable",
+        "rule": "“Disabled” elements or rules are ignored until stated, or until the end of Battle if not.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -91,8 +91,8 @@
     },
     {
         "id": "I.1.6",
-        "name": "Gain Gear in Battle",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Discard",
+        "rule": "“Discarded” elements are Disabled and Removed. ",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -101,8 +101,8 @@
     },
     {
         "id": "I.1.7",
-        "name": "Gain Tech",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Cannot",
+        "rule": "The term “cannot” is absolute. It cannot be overridden unless explicitly instructed.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -111,8 +111,8 @@
     },
     {
         "id": "I.1.8",
-        "name": "Gain Clues",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gain",
+        "rule": "Whenever you gain a game element, simply find it and add it to an appropriate place",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -121,8 +121,8 @@
     },
     {
         "id": "I.1.8.1",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gaining Gear",
+        "rule": "Gained Gear cards are added to the Argo Armory deck.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -131,8 +131,8 @@
     },
     {
         "id": "I.1.8.1.a",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gaining Gear in Battle",
+        "rule": "If you gain a Gear card during a Battle, the Titan responsible for the gain may immediately equip that card. If the gained card has the Possession keyword, the Titan or Argonaut must immediately equip it.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -141,8 +141,8 @@
     },
     {
         "id": "I.1.8.2",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gaining Tech",
+        "rule": "Gained Technology cards are added to the Technology deck.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -151,8 +151,8 @@
     },
     {
         "id": "I.1.8.3",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gaining Clues",
+        "rule": "Gained Clue and Ally cards are placed next to your current Story and Doom cards.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -161,8 +161,8 @@
     },
     {
         "id": "I.1.8.4",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gaining Mnemos cards",
+        "rule": "Gained Mnemos cards are placed in the play area of the Argonaut who gained them. If it is impossible for any Argonaut to gain a Mnemos card (III.5.5), instead add it to the Mnemos Vault (III.5.6).",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -171,8 +171,8 @@
     },
     {
         "id": "I.1.8.5",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gaining Tokens",
+        "rule": "Gained tokens are placed in the appropriate area.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -181,8 +181,8 @@
     },
     {
         "id": "I.1.8.5.a",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gaining Battle Tokens",
+        "rule": "Tokens that have no effect outside of Battle (e.g. Ambrosia or Despair) are held by the Argonaut who gained them.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -191,8 +191,8 @@
     },
     {
         "id": "I.1.8.6",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gaining Other Game Elements",
+        "rule": "Some game elements are not represented by physical components. If you gain any element that is not represented by a component, note it on either the Argo Sheet or an Argonaut Sheet, whichever is specified.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -201,8 +201,8 @@
     },
     {
         "id": "I.1.8.7",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Loss",
+        "rule": "When you lose a physical component, archive it unless instructed otherwise. When you lose a game element that is not represented by a physical component, erase it from the appropriate sheet (if it is singular) or lower its value by a specified number.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -211,8 +211,8 @@
     },
     {
         "id": "I.1.8.8",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Gain/Loss Mitigation",
+        "rule": "Some Technology abilities may allow you to ignore gaining or losing a specific game element (VIII.6.4.2d).",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -221,8 +221,58 @@
     },
     {
         "id": "I.1.8.9",
-        "name": "Gain Mnemos Cards",
-        "rule": "“Ignored” elements or rules are not resolved. “Ignore” can be specific instances (accompanied by the word “this”) or constant.",
+        "name": "Voluntary Gain/Loss",
+        "rule": "If the gain/loss is listed in the text of an active ability, story choice (IX.1.3), or any other non-forced effect, it is considered voluntary (a “payment”).",
+        "keywords": [
+            "Game Aspects",
+            " Key Concepts",
+            " Important Terms"
+        ]
+    },
+    {
+        "id": "I.1.8.9.a",
+        "name": "Unmitigable Loss",
+        "rule": "Voluntary gain/loss cannot be mitigated or ignored in any way.",
+        "keywords": [
+            "Game Aspects",
+            " Key Concepts",
+            " Important Terms"
+        ]
+    },
+    {
+        "id": "I.1.8.10",
+        "name": "Gaining/Losing as a Group",
+        "rule": "When you are instructed to “gain as a group” or “lose as a group\", distribute the specified statistic or element among all of the Argonauts as you see fit; it does not have to be distributed evenly.",
+        "keywords": [
+            "Game Aspects",
+            " Key Concepts",
+            " Important Terms"
+        ]
+    },
+    {
+        "id": "I.1.9",
+        "name": "Archiving (Permanently Removing)",
+        "rule": "When instructed to Permanently Remove a game element (or Archive it), place it back in the game box. It is no longer considered a part of the game state (though an effect may instruct you to return it).",
+        "keywords": [
+            "Game Aspects",
+            " Key Concepts",
+            " Important Terms"
+        ]
+    },
+    {
+        "id": "I.1.10",
+        "name": "Voluntary/Involuntary",
+        "rule": "“Voluntary” effects are those which the Titan/Primordial has done with its own action/effect. “Involuntary” effects are any effects which a Titan/Primordial resolves but are not caused by itself.",
+        "keywords": [
+            "Game Aspects",
+            " Key Concepts",
+            " Important Terms"
+        ]
+    },
+    {
+        "id": "I.1.11",
+        "name": "Exhaust",
+        "rule": "When instructed to exhaust a game element or ability, turn it 90 degrees or place a Generic Token on it to denote this. Cards remain exhausted until they are unexhausted by another effect.",
         "keywords": [
             "Game Aspects",
             " Key Concepts",
@@ -340,91 +390,6 @@
         ]
     },
     {
-        "id": "VIII.1.2",
-        "name": "Always Move",
-        "rule": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
-        "keywords": [
-            "Game Phases",
-            " Campaign Round",
-            " Movement Step"
-        ]
-    },
-    {
-        "id": "VIII.1.2.1",
-        "name": "Always Move",
-        "rule": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
-        "keywords": [
-            "Game Phases",
-            " Campaign Round",
-            " Movement Step"
-        ]
-    },
-    {
-        "id": "VIII.1.2.2",
-        "name": "Always Move",
-        "rule": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
-        "keywords": [
-            "Game Phases",
-            " Campaign Round",
-            " Movement Step"
-        ]
-    },
-    {
-        "id": "VIII.1.2.2.a",
-        "name": "Always Move",
-        "rule": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
-        "keywords": [
-            "Game Phases",
-            " Campaign Round",
-            " Movement Step",
-            " Cycle 1"
-        ]
-    },
-    {
-        "id": "VIII.1.2.2.b",
-        "name": "Always Move",
-        "rule": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
-        "keywords": [
-            "Game Phases",
-            " Campaign Round",
-            " Movement Step",
-            " Cycle 2"
-        ]
-    },
-    {
-        "id": "VIII.1.2.2.c",
-        "name": "Always Move",
-        "rule": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
-        "keywords": [
-            "Game Phases",
-            " Campaign Round",
-            " Movement Step",
-            " Cycle 2"
-        ]
-    },
-    {
-        "id": "VIII.1.2.2.d",
-        "name": "Always Move",
-        "rule": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
-        "keywords": [
-            "Game Phases",
-            " Campaign Round",
-            " Movement Step",
-            " Cycle 2"
-        ]
-    },
-    {
-        "id": "VIII.1.2.2.e",
-        "name": "Always Move",
-        "rule": "During the Movement Step, you must move the Argo to an adjacent Map tile.",
-        "keywords": [
-            "Game Phases",
-            " Campaign Round",
-            " Movement Step",
-            " Cycle 2"
-        ]
-    },
-    {
         "id": "A.1",
         "name": "Ambrosia Limit X/+X",
         "rule": "Your Ambrosia Limit becomes X or is increased by X, respectively. If you have more than one instance of the former, then the one with the greatest X is used (before applying modifiers).",
@@ -435,123 +400,6 @@
     },
     {
         "id": "A.2",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.3",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.4",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.5",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.6",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.7",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.8",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.9",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.10",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.11",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.12",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.13",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.14",
-        "name": "Armor-Piercing",
-        "rule": "During the Power Roll, ignore Hardened.",
-        "keywords": [
-            "Appendix",
-            " Keyword List"
-        ]
-    },
-    {
-        "id": "A.15",
         "name": "Armor-Piercing",
         "rule": "During the Power Roll, ignore Hardened.",
         "keywords": [
