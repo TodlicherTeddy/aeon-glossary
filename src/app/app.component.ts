@@ -24,7 +24,7 @@ export class AppComponent {
   searchService: SearchService = inject(SearchService);
 
   constructor() {
-    this.http.get<Rule[]>('/assets/rules.json').subscribe(res => {
+    this.http.get<Rule[]>('assets/rules.json').subscribe(res => {
       this.rules = res;
       this.searchService.addSearchObjects(res);
     });
