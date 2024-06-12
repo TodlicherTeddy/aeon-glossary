@@ -91,6 +91,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://todlicherteddy.github.io/aeon-glossary/",
+            "repo": "https://github.com/TodlicherTeddy/aeon-glossary.git"
+          }
         }
       }
     }
