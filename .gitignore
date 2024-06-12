@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+/RulesTableConverter/Aeon\ Glossary.xlsx
+/RulesTableConverter/rules.json
