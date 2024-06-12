@@ -15,6 +15,4 @@ The rules texts are taken from [This very helpful document](https://docs.google.
 
 ## Build
 
-Run ` ng build --configuration production --base-href https://todlicherteddy.github.io/aeon-glossary/` to build the project. The build artifacts will be stored in the `docs/` directory which will then be automatically deployed to github-pages.
-
 Or use `ng deploy` to deploy
