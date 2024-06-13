@@ -406,5 +406,866 @@
             "Appendix",
             " Keyword List"
         ]
+    },
+    {
+        "id": "A.3",
+        "name": "Armor Reroll X",
+        "rule": "During the Armor Roll step of a Primordial Attack Sequence, you may reroll up to X Armor dice.\n",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.4",
+        "name": "Ascended",
+        "rule": "This Gear ignores Power Level penalties.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.5",
+        "name": "Assist X",
+        "rule": "During another Titan’s Power Roll, if, after applying all bonuses, their total Power is less than the AT value and you are within your weapon’s range, you may gain 1 Rage and a Combat Fatigue to immediately add X Break tokens to the Kratos Pool. This ability can only be used if it allows the Attacker to Wound.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.6",
+        "name": "Attack Reroll X",
+        "rule": "During an Attack Roll, you may re-roll up to X Attack dice with no cost.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.7",
+        "name": "Auto-Black X",
+        "rule": " During the first ability window, place X Black tokens (X.1.9.6) in the Kratos Pool.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.8",
+        "name": "Auto-Break X",
+        "rule": "During the first ability window, place X Break tokens (X.1.9.1) in the Kratos Pool.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.9",
+        "name": "Awakening Lock",
+        "rule": "You cannot Awaken.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.10",
+        "name": "Black X",
+        "rule": "During the second ability window, place X Black tokens (X.1.9.6) in the Kratos Pool.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.11",
+        "name": "Bleeding X",
+        "rule": "Gain the Bleeding Condition card (unless you already have it) and place X Bleeding tokens on it.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.12",
+        "name": "Bleeding Limit X/+X",
+        "rule": "Your Bleeding Limit becomes X or is increased by X, respectively. If you have more than one instance of the former, then the one with the greatest X is used (before applying modifiers).",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.13",
+        "name": "Block X",
+        "rule": "After counting hits from an Evasion Roll, subtract X hits.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.14",
+        "name": "Break X",
+        "rule": "During the second ability window, place X Break tokens (X.1.9.1) in the Kratos Pool.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.15",
+        "name": "Burden X",
+        "rule": "During the First or Second Ability Window, take X Condition, Despair, or Ambrosia tokens from the nearest Titan. (This does not count as gaining those tokens.)",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.16",
+        "name": "Burn",
+        "rule": "Gain 1 Danger for each Metal Gear card you have equipped and discard all Flammable Gear cards. If this is part of a Primordial Attack Sequence, add the Danger gained to the Danger gained from hits.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.17",
+        "name": "Bypass",
+        "rule": "You may move through other Titans. You cannot end your voluntary movement on a space occupied by another Titan.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.18",
+        "name": "Carving X",
+        "rule": "When you wound the Primordial, test Wisdom (8+). On a success, you immediately gain X additional non-Core Primordial resources from that BP card. These resources are not multiplied by the Primordial level.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.19",
+        "name": "Clutch",
+        "rule": "During the Power Roll step, if, after applying bonuses, you have less total Power than the AT value by exactly 1, you may gain 1 Power. After you finish resolving this Attack Sequence, discard your active weapon.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.20",
+        "name": "Combo-Breaker: X spaces",
+        "rule": "If you are not the Priority Target, you may move X spaces and exhaust a Gear card with a Weapon Trait matching the current space on the Combo Track to break the Combo. This ability is not stackable.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.20.1",
+        "name": "Self Combo-Breaker: X spaces",
+        "rule": "Identical to Combo-Breaker, but you can only use the Gear card which this ability is on to break the Combo (you do not have to exhaust an additional card). This Gear must still possess a matching Weapon Trait.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.21",
+        "name": "Commit",
+        "rule": "When this weapon becomes your active weapon (X.5.1), gain 1 Fate.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.22",
+        "name": "Consumed",
+        "rule": "Treat “consumed” as an Instant Death effect.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.23",
+        "name": "Crash",
+        "rule": "Gain 1 Danger. Knockdown.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.24",
+        "name": "Cumbersome",
+        "rule": "During the second ability window, if you successfully wounded with this weapon, exhaust it. Treat this as a voluntary exhaust.\n",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.25",
+        "name": "Daze",
+        "rule": "During the first ability window, if you are adjacent to the Primordial, you may turn the Primordial so that you are in a Rear space.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.26",
+        "name": "Deadly",
+        "rule": "During an Attack Roll, replace one of your regular Attack dice with an additional Crit die. If you roll only one Attack die, you gain a Crit Chance on a natural 9–10 result instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.27",
+        "name": "Death X",
+        "rule": "Gain the Death Condition card (unless you already have it) and place X Condition tokens on it. If you already have the Death Condition card and X is lower than the number of Condition tokens you have, discard Condition tokens until you X matches.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.28",
+        "name": "Displace",
+        "rule": "Move to an empty space adjacent to its current position. If a Titan is displaced and there is no space it can be legally displaced to, it dies instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.29",
+        "name": "Diversion",
+        "rule": "During the second ability window, place a Diversion token (X.1.9.3) in the Kratos Pool. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.30",
+        "name": "Dodge",
+        "rule": "When you are about to resolve an Evasion Roll, gain +1 Evasion for this roll.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.31",
+        "name": "Doomed",
+        "rule": "During this effect, dice cannot be re-rolled using Fate.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.32",
+        "name": "Elation X",
+        "rule": "During the second ability window, you may discard X Despair tokens or Ambrosia tokens to place X Opening tokens in the Kratos Pool (X.1.9.2).",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.33",
+        "name": "Escalate X",
+        "rule": "Escalate X times (X.5.10.6). Do not look at the removed cards.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.34",
+        "name": "Evolving",
+        "rule": "When you equip a Gear card with this keyword, write the Gear’s name on your Argonaut sheet in the Mnemos section. The Gear instructs you on what you need to do to evolve it. Track your progress on doing so by marking nodes on the Mnemos track. If this Gear card is equipped by another Argonaut, continue keeping track on the original sheet. If the Argonaut the original sheet belongs to dies, transfer the progress to another living Argonaut’s sheet. If you permanently lose the Gear card, erase it from the sheet; you lose all evolution progress on it.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.35",
+        "name": "Fate Armor",
+        "rule": "This card’s Armor Dice may also be used to mitigate Fate dealt by Primordial Attacks. If you are dealt Fate and Danger, you may distribute the mitigation between the two.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.36",
+        "name": "Fire X",
+        "rule": "During the second ability window, place X Fire tokens (X.1.9.4) in the Kratos Pool.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.37",
+        "name": "Frontlines",
+        "rule": "If your Titan is dead, at the End of Battle roll a d10. On a ‘1’, your Argonaut dies as well.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.38",
+        "name": "Glaciate",
+        "rule": "To Glaciate a space, place a Black Iceberg Terrain tile there.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.38.1",
+        "name": "Giant Glaciate",
+        "rule": "To Giant Glaciate a space, place a Giant Black Iceberg Terrain tile there.",
+        "keywords": NaN
+    },
+    {
+        "id": "A.39",
+        "name": "Greater Pass X",
+        "rule": "During the Clear the Kratos Pool step, choose up to X Kratos tokens to remain in the pool.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.40",
+        "name": "Hardened",
+        "rule": "A BP card with this keyword has +2 AT. Ignore this ability if you have a Crit Chance.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.41",
+        "name": "Heal",
+        "rule": "Take the top card from the Wound Stack and remove it from the Battle. It does not provide resources at the end of the Battle.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.42",
+        "name": "Heartseeker",
+        "rule": "During the Draw BP card step of a Titan Attack Sequence (X.5.6), you may look at the top two BP cards and choose which one to attack. Shuffle the other card back into the deck.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.43",
+        "name": "Hide",
+        "rule": "If you are not in front of the Primordial, you may activate this ability at the end of your turn to become Hidden. If you have the Priority Target token, pass it to the Titan with the highest Rage other than you.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.43.1",
+        "name": "Hidden",
+        "rule": "As long as you are Hidden, you have +1 Evasion and +1 Precision. You stop being Hidden if you move in front of the Primordial, gain the Priority Target token, after the second ability window of your Attack, or at the end of your next turn. (Place a generic token on the game element granting you Hide as a reminder.)",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.44",
+        "name": "Hope X",
+        "rule": "During the second ability window, place X Hope tokens (X.1.9.7) in the Kratos Pool.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.45",
+        "name": "Incinerated",
+        "rule": "Treat “incinerated” as an Instant Death effect.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.46",
+        "name": "Inspire X",
+        "rule": "During the first ability window, choose up to X Knocked Down Titans, they may immediately stand up.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.47",
+        "name": "Jump",
+        "rule": "At the start of movement, you may activate this ability to ignore up to 1 space of a Terrain tile.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.47.1",
+        "name": "Advanced Jump",
+        "rule": "Ignore up to 2 spaces instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.48",
+        "name": "Knockback X",
+        "rule": "Move the affected miniature X spaces directly away from the source of Knockback in a straight line (or in a specific direction if specified).",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.48.1",
+        "name": "Knockback From Attacks",
+        "rule": "If Knockback is caused by a Primordial Attack, it affects the Target(s) only if the Target(s) are within the Attack’s range.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.48.2",
+        "name": "Knockback From Responses",
+        "rule": "If Knockback is caused by a Primordial Response, it affects the Attacker only if they are within adjacency. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.48.3",
+        "name": "Knocked Back Titans",
+        "rule": "Knocked back Titans ignore all Terrain tiles they move through except Obstacles. If a Titan would be forced to move through a Destructible Obstacle Terrain tile, stop its movement, remove the Terrain tile from the Battle Board and place the Titan in its space, then the Titan suffers Crash. If a Titan would be forced to move through an Indestructible Obstacle, it stops on an adjacent space right before the Obstacle, then suffers Crash.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.48.4",
+        "name": "Knocked Back Primordials",
+        "rule": "Knocked Back Primordials can move through any Terrain tiles and miniatures without hindrance. They destroy any Terrain tiles (except Indestructible) they move through and cause Crash and Unavoidable Knockback to Titans as normal.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.48.5",
+        "name": "Knockback Into Board Edge",
+        "rule": "If the affected miniature is Knocked Back into a Board Edge, it continues to move along the edge, if possible, away from the source of Knockback. \n",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.49",
+        "name": "Knockdown",
+        "rule": "Gain the Knockdown Condition card, “Falling down” side up, and tip your miniature on its side. Follow the rules of the Condition card.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.49.1",
+        "name": "Knockback From Attacks",
+        "rule": "If Knockdown is caused by an Attack, it affects the Target only if it is within the Attack’s range. \n",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.49.2",
+        "name": "Knockback From Responses",
+        "rule": "If Knockdown is caused by a Response, it affects the Attacker only if they are within adjacency. \n",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.50",
+        "name": "Laser Resistance X",
+        "rule": "Each Laser Attack hit deals X less Danger to you. In Cycle IV+, this loses its Keyword status and becomes a Defensive Statistic instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.51",
+        "name": "Lifeline",
+        "rule": "When you are about to die from a Chasm space, Displace instead. Alternatively, when you are about to die from falling from a Boundless Board Edge, stop adjacent to it. This ability can be used even if Knocked Down or otherwise prohibited from using active abilities.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.52",
+        "name": "Lumbering",
+        "rule": "Cannot be involuntarily moved.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.53",
+        "name": "Masterwork",
+        "rule": "During an Attack Roll, you may reroll 1s with no cost.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.54",
+        "name": "Midas Immune",
+        "rule": "?, no effect yet",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.55",
+        "name": "Motivate X",
+        "rule": "During the second ability window, choose another Titan. That Titan may move up to X spaces. (Reminder: If you gain multiple instances of a Keyword, they do not have to stack and can therefore be resolved separately.)",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.56",
+        "name": "Opening X",
+        "rule": "During the second ability window, place X Opening tokens in the Kratos Pool (X.1.9.2).",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.57",
+        "name": "Overbreak X",
+        "rule": "During the second ability window, if your Total Power exceeds the AT value by at least 1, place X Break tokens in the Kratos Pool (X.1.9.1).",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.58",
+        "name": "Pass X",
+        "rule": "During the Clear the Kratos Pool step, choose up to X Opening and/or Break tokens to remain in the Kratos Pool.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.59",
+        "name": "Perishable",
+        "rule": "After you finish resolving a Titan Attack Sequence with this weapon, discard it.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.60",
+        "name": "Precise",
+        "rule": "During the Draw a BP card step (X.5.6), after drawing the card you may choose to draw the top card of the BP discard instead. If you do, place the first drawn card back into the BP deck and shuffle it.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.61",
+        "name": "Provoke",
+        "rule": "During the first ability window, gain the Priority Target token and turn the Primordial to face you.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.62",
+        "name": "Power Reroll X",
+        "rule": "During the Power Roll step of an Attack, you may re-roll up to X Power dice.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.63",
+        "name": "Pull X",
+        "rule": "Move the affected miniature X spaces towards the source of the Pull, along the shortest possible path.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.63.1",
+        "name": "Pull over other Miniatures",
+        "rule": "The affected miniature can move through spaces occupied by other miniatures. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.63.2",
+        "name": "Pull over Terrain",
+        "rule": "The affected miniature must resolve the effects of any Terrain tiles it moves through. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.63.3",
+        "name": "Pull over Destructible Obstacles",
+        "rule": "If a Titan is about to be pulled into a Destructible Obstacle (e.g. a Column), remove the Terrain tile from the Battle Board, the Titan suffers Crash, then continue the Pull.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.63.4",
+        "name": "Pull Over Indestructible Obstacles",
+        "rule": "If a Titan is about to be pulled into an Indestructible Obstacle, it suffers Crash and continues to move along the Obstacle’s edge along the shortest possible path towards the Primordial.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.63.5",
+        "name": "Adjacency",
+        "rule": "If the affected miniature is or becomes adjacent to the source, the Pull does not end. Instead, move the source directly away from the affected miniature the remaining number of spaces, then finish the Pull. The source’s movement is voluntary, the affected miniature’s movement is involuntary.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.63.6",
+        "name": "Titan Timing",
+        "rule": "Titans may use the Pull X keyword during either the first or second ability window. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.64",
+        "name": "Pushback X",
+        "rule": "Turn the source towards the affected miniature. Then, move X spaces in the direction of the affected miniature, pushing it in a straight line.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.64.1",
+        "name": "Pushback over other Miniatures",
+        "rule": "Pushed Titans can move through spaces occupied by other miniatures. If a Titan ends involuntary movement on a space with another miniature, the other miniature is Displaced.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.64.2",
+        "name": "Pushback over Terrain",
+        "rule": "The affected miniature must resolve the effects of any Terrain tiles it moves through.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.64.3",
+        "name": "Pushback if not Adjacent",
+        "rule": "If the affected miniature is not adjacent, move the source in its direction along the shortest possible path.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.64.4",
+        "name": "Pushback over Destructible Obstacles",
+        "rule": "If a Titan is about to be pushed into a Destructible Obstacle, remove that Terrain tile from the Battle Board, the Titan suffers Crash, then continue Pushback.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.64.5",
+        "name": "Pushback over Indestructible Obstacles",
+        "rule": "If a Titan is about to be pushed into an Indestructible Obstacle, displace it to an adjacent space that would allow the Primordial to continue movement onto a space previously occupied by the Titan, then continue Pushback. If the Titan dies from displacement, then once the Primordial has moved into the space formerly occupied by the Titan, the Pushback stops.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.64.6",
+        "name": "Pushback over Board Edge",
+        "rule": "If a Titan or Primordial is about to be pushed into the Board Edge, it is displaced to an adjacent space in a way that would allow the source of Pushback to move onto a space previously occupied by the affected miniature, then continue Pushback.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.64.7",
+        "name": "Pushback and Titan Timing",
+        "rule": "Titans may resolve the Pushback X keyword during either the first or second ability window of their Attack or when specifically instructed to resolve it immediately.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.65",
+        "name": "Quantum",
+        "rule": "For the purposes of Rapid Adaptation, if attacking from the Blindspot, your weapon can have any Weapon Trait",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.66",
+        "name": "Ranged Y–X",
+        "rule": "To attack with this weapon, you must be at least Y and up to X spaces away from your target. This keyword is not stackable.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.67",
+        "name": "Reach X",
+        "rule": "You may attack from up to X spaces away. This keyword is not stackable.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.68",
+        "name": "Reflex",
+        "rule": "Move up to 1 space.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.68.1",
+        "name": "Advanced Reflex",
+        "rule": "Move up to 2 spaces.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.68.2",
+        "name": "Superior Reflex",
+        "rule": "Move up to 3 spaces.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.69",
+        "name": "Reposition X",
+        "rule": "During the second ability window, you may move up to X spaces.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.70",
+        "name": "Reinforce X",
+        "rule": "When you are about to resolve an Armor Roll, add X red dice to your Armor dice pool. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.70.1",
+        "name": "Advanced Reinforce X",
+        "rule": "When you are about to resolve an Armor Roll, add X black dice to your Armor dice pool. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.70.2",
+        "name": "Superior Reinforce X",
+        "rule": "When you are about to resolve an Armor Roll, add X white dice to your Armor dice pool. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
     }
 ]
