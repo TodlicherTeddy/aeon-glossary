@@ -390,6 +390,101 @@
         ]
     },
     {
+        "id": "VIII.1.2",
+        "name": "Map Arrows",
+        "rule": "You must choose a direction from the arrows on your tile. You cannot move in a direction without arrows. If there is more than one arrow in the same direction, you must pick one before revealing the new tile, the tile in that direction will be Sectored.",
+        "keywords": [
+            "Game Phases",
+            " Campaign Round",
+            " Movement Step"
+        ]
+    },
+    {
+        "id": "VIII.1.2.1",
+        "name": "Factions on Map Arrows",
+        "rule": "Faction symbols on Map Arrows tell you which Faction(s) are on the Map tiles your current tile connects to.",
+        "keywords": [
+            "Game Phases",
+            " Campaign Round",
+            " Movement Step"
+        ]
+    },
+    {
+        "id": "VIII.1.2.2",
+        "name": "Map Arrows Lock Symbols",
+        "rule": "If a map arrow has a padlock symbol on it, ignore that arrow unless you have the required Technology.",
+        "keywords": [
+            "Game Phases",
+            " Campaign Round",
+            " Movement Step"
+        ]
+    },
+    {
+        "id": "VIII.1.2.2.a",
+        "name": "River Lock Symbol",
+        "rule": "(Cycle 1 only) Ignore Map Arrows with this symbol unless you have the XXX Technology card.",
+        "keywords": [
+            "Game Phases",
+            " Campaign Round",
+            " Movement Step",
+            " Cycle 1"
+        ]
+    },
+    {
+        "id": "VIII.1.2.2.b",
+        "name": "First Cataract Lock Symbol",
+        "rule": "(Cycle 2 only) Ignore Map Arrows with this symbol unless you have the XXX Technology card.",
+        "keywords": [
+            "Game Phases",
+            " Campaign Round",
+            " Movement Step",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "VIII.1.2.2.c",
+        "name": "One-Way Canals Lock Symbol",
+        "rule": "(Cycle 2 only) These Map Arrow symbols represent directions in which you are free to move one way, but are Locked from the other.",
+        "keywords": [
+            "Game Phases",
+            " Campaign Round",
+            " Movement Step",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "VIII.1.2.2.d",
+        "name": "Second Cataract Lock Symbol",
+        "rule": "(Cycle 2 only) Ignore Map Arrows with this symbol unless you have the XXX Technology card.",
+        "keywords": [
+            "Game Phases",
+            " Campaign Round",
+            " Movement Step",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "VIII.1.2.2.e",
+        "name": "Sluice Gate Lock Symbol",
+        "rule": "(Cycle 2 only) Ignore Map Arrows with this symbol unless you have the XXX Technology card.",
+        "keywords": [
+            "Game Phases",
+            " Campaign Round",
+            " Movement Step",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "VIII.1.3",
+        "name": "Placing Map Tiles",
+        "rule": "If the tile you’re moving to isn’t revealed, find the Map tile with the number of the arrow selected on its back and place it adjacent to the Map tile you are traveling from, so that the directional arrows on the shared border of the two tiles align. Make sure to orient the new tile in the same way as all of the other tiles. Place a reminder token of some sort on the tile to mark it as Unexplored.",
+        "keywords": [
+            "Game Phases",
+            " Campaign Round",
+            " Movement Step"
+        ]
+    },
+    {
         "id": "A.1",
         "name": "Ambrosia Limit X/+X",
         "rule": "Your Ambrosia Limit becomes X or is increased by X, respectively. If you have more than one instance of the former, then the one with the greatest X is used (before applying modifiers).",
@@ -744,7 +839,10 @@
         "id": "A.38.1",
         "name": "Giant Glaciate",
         "rule": "To Giant Glaciate a space, place a Giant Black Iceberg Terrain tile there.",
-        "keywords": NaN
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
     },
     {
         "id": "A.39",
@@ -1266,6 +1364,543 @@
         "keywords": [
             "Appendix",
             " Keyword List"
+        ]
+    },
+    {
+        "id": "A.71",
+        "name": "Rewind",
+        "rule": "Place your Titan on your Time Anchor. If your Time Anchor is not on the Board, you are erased from existence instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.72",
+        "name": "Rocksteady",
+        "rule": "When you are about to suffer Knockdown, you may use this ability to ignore it.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.73",
+        "name": "Rouse X",
+        "rule": "During the second ability window, place X Rouse tokens (X.1.9.6) in the Kratos Pool.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.74",
+        "name": "Rollout",
+        "rule": "When you are about to suffer Knockdown while adjacent to the Primordial, suffer Knockback 4 instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.75",
+        "name": "Rush",
+        "rule": "Move with +1 Speed and perform a Melee/Reach Attack with Auto-break 1. You must move at least 3 spaces and reach your target via the shortest possible path.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.75.1",
+        "name": "Improved Rush",
+        "rule": "Move with +2 Speed and perform a Melee/Reach Attack with Auto-break 1 and +1 Precision. You must move at least 3 spaces and reach your target via the shortest possible path.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.76",
+        "name": "Sacrifice",
+        "rule": "During the first ability window, you may gain 1 Danger to place one Break token in the Kratos Pool (X.1.9.1).",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.77",
+        "name": "Scale",
+        "rule": "When you are about to perform a test to climb a Vantage Point or Elevated Terrain, automatically succeed at that test instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.78",
+        "name": "Second Chance",
+        "rule": "After you draw a Trauma or Obol card, you may ignore its effect and discard it. Draw and resolve another card from the same deck (note: a discarded Obol is immediately shuffled back into the Obol deck). You cannot ignore the second draw in any way. This ability can be used even when knocked down or otherwise prohibited from using active abilities.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.79",
+        "name": "Shaded",
+        "rule": "Until the start of the next Titan Round, treat your Titan as being on as shaded space.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.80",
+        "name": "Solace",
+        "rule": "Discard a Mind Condition card or a Despair token from yourself or an adjacent Titan.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.81",
+        "name": "Spiral X",
+        "rule": "During the Attack Roll step, you may reroll up to X hits to lose 1 Fate for each. If you reroll a Crit die this way, the original result does not grant you a Crit Chance.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.82",
+        "name": "Spotlight",
+        "rule": "During the first ability window, if you have the Priority Target token, gain 1 Red Power Die for this Attack.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.83",
+        "name": "Stalwart",
+        "rule": "When you are about to suffer Knockback, you may use this ability to ignore it.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.84",
+        "name": "Succor",
+        "rule": "During another Titan’s Power Roll, if, after applying all bonuses, they have less total Power than the AT value by exactly 1 and you are within your weapon range of the Primordial, you may gain 1 Rage, a Combat Fatigue, and discard your active weapon to add 1 Power to that Power Roll.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.85",
+        "name": "Suppress",
+        "rule": "Shuffle the discard pile denoted by the subtype into the appropriate deck.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.85.1",
+        "name": "BP Suppress",
+        "rule": "Shuffle the BP discard pile into the BP deck.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.85.2",
+        "name": "AI Suppress",
+        "rule": "Shuffle the AI discard pile into the AI deck.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.86",
+        "name": "Temporal  Reflex",
+        "rule": "When you are about to suffer Crash, ignore it. If you would suffer Unavoidable Knockback, displace instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.87",
+        "name": "Time-Clocked",
+        "rule": "Gain the Time-Clocked Condition card, Departing side up and remove your miniature from the board. Follow the rules of the Condition card. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.88",
+        "name": "Tireless",
+        "rule": "When you are about to activate the Cumbersome keyword, you may ignore it.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.89",
+        "name": "Titan Possession",
+        "rule": "Once you equip this Gear card on a Titan, you have to equip it on this Titan for every subsequent Battle. You may, however, junction this Titan with a different Argonaut.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.89.1",
+        "name": "Argonaut Possession",
+        "rule": "Once you equip this Gear card on an Argonaut, you have to equip it on that Argonaut’s Titan for every subsequent Battle. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.90",
+        "name": "Transform",
+        "rule": "Use this ability to flip this Gear card to the other side. This is always an active ability.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.91",
+        "name": "Trick",
+        "rule": "Weapons with the Transform keyword and Trick may immediately flip to the other side when you meet the Trick condition.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.91.1",
+        "name": "Trauma Trick",
+        "rule": " You may immediately flip this card after you resolve a Trauma card. ",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.91.2",
+        "name": "Wound Trick",
+        "rule": "You may immediately flip this card after you Wound.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.91.3",
+        "name": "Fail Trick",
+        "rule": "You may immediately flip this card after you Fail to Wound.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.92",
+        "name": "Tumble",
+        "rule": "When you are about to suffer Crash, roll a d10. On a 6+ ignore it.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.93",
+        "name": "Unique",
+        "rule": "There can be no more than one instance of a unique card in play or in the Argo Armory at any given time.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.94",
+        "name": "Vault",
+        "rule": "If you’re adjacent to the Primordial, place your miniature on an empty space in a straight line from you, on the opposite side of the Primordial, adjacent to it. A Titan may use this ability in either the first or second ability window.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.95.1",
+        "name": "Forced Vault",
+        "rule": "Same as Vault, but treat it as involuntary movement. If you would have to end this movement outside the Board Edge or on an Indestructible Obstacle Terrain tile, you die instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "A.95",
+        "name": "Wish Armor (X+)",
+        "rule": "?, no effect yet",
+        "keywords": [
+            "Appendix",
+            " Keyword List"
+        ]
+    },
+    {
+        "id": "C.1.1",
+        "name": "Strangers",
+        "rule": "No inherent effects.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 1"
+        ]
+    },
+    {
+        "id": "C.2.1",
+        "name": "Captives",
+        "rule": "For each Captive you have, lose 1 Crew limit. You may lose 1 Captive when resolving a Spartan Stronghold (VIII.3.1.4) to ignore that resolution.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.2",
+        "name": "Combo",
+        "rule": "A Primordial with the Combo Mechanic adds the following effects to the end of each AI card resolution: “If this is the first AI card resolved this round: Window of Opportunity. Combo”.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.2.1",
+        "name": "Resolving Combo",
+        "rule": "When instructed to resolve Combo, resolve X.3.2.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.2.2",
+        "name": "Broken Combo",
+        "rule": "If a Combo is broken (A.20), do not resolve the Combo.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.2.3",
+        "name": "Combo Track",
+        "rule": "During setup, place a Combo token on this track, as instructed. Whenever a Combo is performed or broken (A.20), move the token to the next space on the track, clockwise.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.2.4",
+        "name": "Ignore Highest Rage",
+        "rule": "While the Combo mechanic is in play, ignore X.5.2.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.3",
+        "name": "Crippled Titans",
+        "rule": "For all purposes, when a Titan is Crippled, treat it as if it died (as if you no longer have it), except you do not remove it from the Argo. (Crippled Titans can be un-crippled with the Trauma Growth Technology card.)",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.4",
+        "name": "Defectors",
+        "rule": "Defectors are a resource. You may spend 1 Defector when rolling a Diplomacy Test to add +3 to the result. You cannot gain Defectors until you research the XXX Technology card.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.5",
+        "name": "Prisoners",
+        "rule": "When you reveal a BP card with the “Prisoners!” flag, you may decide to voluntarily fail the attack before performing the Power Roll (X.5.7). If you do, resolve the Fail Response, as normal",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.6",
+        "name": "Refugees",
+        "rule": "For each Refugee you have, lose 1 Crew limit.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.7",
+        "name": "Spartan Dreamwalkers",
+        "rule": "All Dreamwalker-class Titans acquired in Cycle 2 (even from campaign setup) come with the Spartan Dreamwalker strain Pattern card.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.8",
+        "name": "The Strong Eat",
+        "rule": "In Battle against Primordials with this Trait, add 1 additional “You died.” Obol to the Obol deck.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.2.8.1",
+        "name": "Ignoring The Strong Eat",
+        "rule": "If a Titan is  instructed to ignore this Trait, remove the added Obol card when that Titan is about to draw an Obol.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 2"
+        ]
+    },
+    {
+        "id": "C.3.1",
+        "name": "Backwards Momentum",
+        "rule": "In Battles with the Backwards Momentum Trait, during setup, assign each Titan a pair of Time Anchors tokens of the same color. They keep one, and place the other as indicated on Battle Scenario diagrams.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
+        ]
+    },
+    {
+        "id": "C.3.1.1",
+        "name": "Reestablish Time Anchor",
+        "rule": "At the start of a Titan’s turn, it must reestablish its Time Anchor. To do so, move its Time Anchor to its current space. If a Titan is on a VP, place their Time Anchor adjacent to the Primordial instead.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
+        ]
+    },
+    {
+        "id": "C.3.2",
+        "name": "Death by Fate",
+        "rule": "Primordials with the Death by Fate Trait can deal Fate in addition to Danger with their Attacks. When a Titan is dealt Fate, still resolve VI.9.3, but use Fate instead of Danger and do not resolve the Armor Roll.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
+        ]
+    },
+    {
+        "id": "C.3.2.1",
+        "name": "Death by Fate Trauma Draw",
+        "rule": "When instructed to resolve a Trauma Draw with Death by Fate in play, select the higher of your Fate and Danger, then compare that to your Trauma Table.\n",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
+        ]
+    },
+    {
+        "id": "C.3.2.2",
+        "name": "Death by Fate Moiros Cards",
+        "rule": "While Death by Fate is in play, gaining Fate over 9 does not cause you to draw a Moiros card.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
+        ]
+    },
+    {
+        "id": "C.3.3",
+        "name": "Delphian Dreamwalkers",
+        "rule": "All Dreamwalker-class Titans acquired in Cycle 3 (even from campaign setup) come with the Delphian Dreamwalker strain Pattern card.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
+        ]
+    },
+    {
+        "id": "C.3.4",
+        "name": "Fragmented Landscape",
+        "rule": "Not all sections of the Cycle 3 map are connected. If you travel to a tile that isn’t connected to the rest, set aside a new portion of the map. If you ever find the tiles that link them together, do so.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
+        ]
+    },
+    {
+        "id": "C.3.5.1",
+        "name": "Map Symbol Time Wound",
+        "rule": "Time Wounds can be moved through. To do so, set aside the map tile noted next to the Time Wound, then move the Argo to the Time Wound tile. When you do so, skip the Exploration and Expedition steps of that Campaign Day. During the next Campaign Day, you must move the Argo to the set aside tile. Adversaries treat Time Wound tiles as adjacent. Adversaries cannot move onto the Time Wound tile.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
+        ]
+    },
+    {
+        "id": "C.3.5.2",
+        "name": "Time Portals",
+        "rule": "If you have the required Technology, you can move through Time Portals. When you do, do not connect the tile you go to the tile you came from. Adversaries treat Time Portals as adjacent. Take Time Portals into account when considering the shortest path to the Argo during the Adversary Movement.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
+        ]
+    },
+    {
+        "id": "C.3.6",
+        "name": "Paradox",
+        "rule": "No inherent effect.",
+        "keywords": [
+            "Appendix",
+            " Keyword List",
+            " Cycle 3"
         ]
     }
 ]
